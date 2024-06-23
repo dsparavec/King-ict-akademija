@@ -1,7 +1,9 @@
 package hr.kingict.sparavec.zadatak.facade;
 
+import hr.kingict.sparavec.zadatak.domain.User;
 import hr.kingict.sparavec.zadatak.dto.ProductDTO;
 import hr.kingict.sparavec.zadatak.dto.ProductSummaryDTO;
+import hr.kingict.sparavec.zadatak.dto.UserDTO;
 import hr.kingict.sparavec.zadatak.model.Product;
 import org.springframework.stereotype.Service;
 
@@ -51,12 +53,18 @@ public class Mapper {
     }
     public ProductSummaryDTO mapToProductSummary(Product product) {
         ProductSummaryDTO summary = new ProductSummaryDTO();
-        summary.setImage(product.getThumbnail());
+        summary.setImage(product.getImages());
         summary.setTitle(product.getTitle());
         summary.setPrice(product.getPrice());
         summary.setShortDescription(product.getDescription().length() > 100
                 ? product.getDescription().substring(0, 100) + "..."
                 : product.getDescription());
         return summary;
+    }
+
+    public UserDTO mapUserToUserDTO(User user){
+        return new UserDTO(user.getId(),
+                user.getUsername(),
+                user.getPassword());
     }
 }

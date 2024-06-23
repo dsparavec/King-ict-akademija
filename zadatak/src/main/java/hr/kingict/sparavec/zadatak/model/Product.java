@@ -60,4 +60,5 @@ public class Product {
         this.thumbnail = thumbnail;
         this.images = images;
     }
+
 }
