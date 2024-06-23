@@ -1,0 +1,13 @@
+2024-06-23 16:49:38.850 [http-nio-8080-exec-2] INFO  h.k.s.z.controller.ProductController - Product sorted by category: motorcycle, with minimum starting price: 1.0 and maximum price: 100000.0
+2024-06-23 16:50:21.439 [http-nio-8080-exec-4] INFO  h.k.s.z.controller.ProductController - All product summeries.
+2024-06-23 16:50:33.088 [http-nio-8080-exec-3] INFO  h.k.s.z.controller.ProductController - Product by title: POWDER
+2024-06-23 16:51:33.121  INFO  h.k.s.z.controller.ProductController - Product by title: POWDER
+2024-06-23 16:52:05.644  INFO  - Product by title: POWDER
+2024-06-23 16:58:24.838  [32mINFO [0;39m - [32mProduct by title: POWDER
+[0;39m2024-06-23 16:58:57.518  INFO  - Product by title: POWDER
+2024-06-23 17:00:45.495  INFO  - Product by title: POWDER
+2024-06-23 20:47:35.615  INFO  - All product summeries.
+2024-06-23 22:31:37.353  INFO  - Product sorted by category: Category1, with minimum starting price: 5.0 and maximum price: 15.0
+2024-06-23 22:31:37.555  INFO  - Product by title: Product 1
+2024-06-23 22:31:37.601  INFO  - All product summeries.
+2024-06-23 22:31:37.628  INFO  - Product details with id: 1
